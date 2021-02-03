@@ -2,7 +2,7 @@
   "name": "electron-app",
   "version": "1.0.0",
   "description": "cleaner",
-  "main": "main.js",
+  "main": "src/main.js",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
@@ -30,7 +30,9 @@
     "electron": "^11.2.2"
   },
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.0"
+    "electron-reload": "^1.5.0",
+    "electron-squirrel-startup": "^1.0.0",
+    "nodemon": "^2.0.7"
   },
   "config": {
     "forge": {

@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #fbfbfb;
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "electron-app",
+  "version": "1.0.0",
+  "description": "cleaner",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mednajjar/Electron-app.git"
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "Med-Najjar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mednajjar/Electron-app/issues"
+  },
+  "homepage": "https://github.com/mednajjar/Electron-app#readme",
+  "devDependencies": {
+    "electron": "^11.2.2"
+  }
+}

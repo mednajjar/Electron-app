@@ -8,10 +8,14 @@
     <title>UPC</title>
 </head>
 <body>
-    <header><h2>Ultimate PC Cleaner</h2></header>
+    <header><h2><span>Ultimate</span> PC Cleaner</h2></header>
     <section>
-    <button onclick="myAlert()">Clean</button>
+        <div id="myProgress">
+            <h3 id='txt'>Deleting temporary files...</h3>
+        <div id="myBar"></div>
+        </div>
+    <button id="btn" onclick="move()">Clean</button>
     </section>
-<script>const myAlert = () => {console.log('you clicked me')}</script>
+<script src="fsFile.js"></script>
 </body>
 </html>
